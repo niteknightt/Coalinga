@@ -1,3 +1,5 @@
+package top.lower.bottom;
+
 public class CoalingaMain {
 
     public static int getNextValue(int prevValue) {

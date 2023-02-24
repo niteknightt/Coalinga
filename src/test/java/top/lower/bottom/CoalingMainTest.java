@@ -1,5 +1,8 @@
+package top.lower.bottom;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import top.lower.bottom.CoalingaMain;
 
 public class CoalingMainTest {
 
