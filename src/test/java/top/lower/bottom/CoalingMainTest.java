@@ -9,7 +9,7 @@ public class CoalingMainTest {
     @Test
     public void TestGetNextValue() {
         int testValue = 123;
-        int expectedValue = testValue * 2;
+        int expectedValue = testValue + 2;
         int returnedValue = CoalingaMain.getNextValue(testValue);
         Assertions.assertEquals(expectedValue, returnedValue);
 
