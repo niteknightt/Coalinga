@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+//group 'org.example'
+//version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -20,22 +20,26 @@ test {
 }
 
 publishing {
-    repositories{
-        maven{
-            name="GitHubPackages"
-            url=uri("https://maven.pkg.github.com/niteknightt/coalinga")
-            credentials{
-                username="niteknightt@gmail.com"
-                password="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"
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/niteknightt/coalinga")
+            credentials {
+                username = "niteknightt@gmail.com"
+                //password = "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"
+                password = "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"
             }
         }
     }
     publications {
-        gpr(MavenPublication){
+        gpr(MavenPublication) {
             groupId='niteknightt_coalingagroupid'
             artifactId='coalingaartifactid'
-            version='0.1'
+            version='0.2'
             from(components.java)
         }
     }
 }
+// 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
+// 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
+
