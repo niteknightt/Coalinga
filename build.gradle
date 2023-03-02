@@ -34,7 +34,7 @@ publishing {
         gpr(MavenPublication) {
             groupId='niteknightt_coalingagroupid'
             artifactId='coalingaartifactid'
-            version='0.4'
+            version='0.5'
             from(components.java)
         }
     }
